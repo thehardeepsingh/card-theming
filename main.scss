@@ -1,0 +1,127 @@
+/* ===== sass ===== */
+
+//== common color
+$default-color: #08333f;
+$primary-color: #070b52;
+$success-color: #214429;
+$danger-color: #942f39;
+$info-color: #2190a3;
+
+body {
+  background-image: radial-gradient(circle,
+      #5b9797,
+      #599595,
+      #569292,
+      #549090,
+      #518e8e,
+      #4f9292,
+      #4c9696,
+      #499a9a,
+      #45a6a6,
+      #3fb1b1,
+      #36bdbd,
+      #29c9c9);
+
+  .navbar {
+    .span-text {
+      letter-spacing: 1px !important;
+    }
+
+    .default-bg {
+      border: 1px solid $default-color !important;
+      color: $default-color !important;
+
+      &.active {
+        background-color: $default-color !important;
+        border: none !important;
+        color: white !important;
+      }
+    }
+
+    .default-primary {
+      border: 1px solid $primary-color !important;
+      color: $primary-color !important;
+
+      &.active {
+        background-color: $primary-color !important;
+        color: white !important;
+        border: transparent !important;
+      }
+    }
+
+    .default-success {
+      border: 1px solid $success-color !important;
+      color: $success-color !important;
+
+      &.active {
+        background-color: $success-color !important;
+        color: #fff !important;
+        border: none !important;
+      }
+    }
+
+    .default-danger {
+      border: 1px solid $danger-color !important;
+      color: $danger-color !important;
+
+      &.active {
+        background-color: $danger-color !important;
+        color: #fff !important;
+        border: none !important;
+      }
+    }
+
+    .default-info {
+      border: 1px solid $info-color !important;
+      color: $info-color !important;
+
+      &.active {
+        background-color: $info-color !important;
+        color: #fff !important;
+        border: none !important;
+      }
+    }
+  }
+
+  @mixin theme($default: $default-color) {
+    .card {
+      .card-title {
+        color: $default;
+      }
+
+      h4 {
+        color: $default;
+      }
+
+      svg {
+        color: $default;
+        fill: $default;
+      }
+
+      button {
+        background-color: $default;
+        letter-spacing: 1px;
+      }
+    }
+  }
+
+  .default {
+    @include theme($default: $default-color);
+  }
+
+  .primary {
+    @include theme($default: $primary-color);
+  }
+
+  .success {
+    @include theme($default: $success-color);
+  }
+
+  .danger {
+    @include theme($default: $danger-color);
+  }
+
+  .info {
+    @include theme($default: $info-color);
+  }
+}

@@ -1,0 +1,124 @@
+/* ===== sass ===== */
+body {
+  background-image: radial-gradient(circle, #5b9797, #599595, #569292, #549090, #518e8e, #4f9292, #4c9696, #499a9a, #45a6a6, #3fb1b1, #36bdbd, #29c9c9);
+}
+body .navbar .span-text {
+  letter-spacing: 1px !important;
+}
+body .navbar .default-bg {
+  border: 1px solid #08333f !important;
+  color: #08333f !important;
+}
+body .navbar .default-bg.active {
+  background-color: #08333f !important;
+  border: none !important;
+  color: white !important;
+}
+body .navbar .default-primary {
+  border: 1px solid #070b52 !important;
+  color: #070b52 !important;
+}
+body .navbar .default-primary.active {
+  background-color: #070b52 !important;
+  color: white !important;
+  border: transparent !important;
+}
+body .navbar .default-success {
+  border: 1px solid #214429 !important;
+  color: #214429 !important;
+}
+body .navbar .default-success.active {
+  background-color: #214429 !important;
+  color: #fff !important;
+  border: none !important;
+}
+body .navbar .default-danger {
+  border: 1px solid #942f39 !important;
+  color: #942f39 !important;
+}
+body .navbar .default-danger.active {
+  background-color: #942f39 !important;
+  color: #fff !important;
+  border: none !important;
+}
+body .navbar .default-info {
+  border: 1px solid #2190a3 !important;
+  color: #2190a3 !important;
+}
+body .navbar .default-info.active {
+  background-color: #2190a3 !important;
+  color: #fff !important;
+  border: none !important;
+}
+body .default .card .card-title {
+  color: #08333f;
+}
+body .default .card h4 {
+  color: #08333f;
+}
+body .default .card svg {
+  color: #08333f;
+  fill: #08333f;
+}
+body .default .card button {
+  background-color: #08333f;
+  letter-spacing: 1px;
+}
+body .primary .card .card-title {
+  color: #070b52;
+}
+body .primary .card h4 {
+  color: #070b52;
+}
+body .primary .card svg {
+  color: #070b52;
+  fill: #070b52;
+}
+body .primary .card button {
+  background-color: #070b52;
+  letter-spacing: 1px;
+}
+body .success .card .card-title {
+  color: #214429;
+}
+body .success .card h4 {
+  color: #214429;
+}
+body .success .card svg {
+  color: #214429;
+  fill: #214429;
+}
+body .success .card button {
+  background-color: #214429;
+  letter-spacing: 1px;
+}
+body .danger .card .card-title {
+  color: #942f39;
+}
+body .danger .card h4 {
+  color: #942f39;
+}
+body .danger .card svg {
+  color: #942f39;
+  fill: #942f39;
+}
+body .danger .card button {
+  background-color: #942f39;
+  letter-spacing: 1px;
+}
+body .info .card .card-title {
+  color: #2190a3;
+}
+body .info .card h4 {
+  color: #2190a3;
+}
+body .info .card svg {
+  color: #2190a3;
+  fill: #2190a3;
+}
+body .info .card button {
+  background-color: #2190a3;
+  letter-spacing: 1px;
+}
+
+/*# sourceMappingURL=main.css.map */
